@@ -51,7 +51,7 @@ def _metric_panel(result: LaneFrameResult, shape: Tuple[int, int, int]) -> np.nd
 
 
 def compose_dashboard(result: LaneFrameResult) -> np.ndarray:
-    """Compose a 2x2 dashboard frame for demonstration and interview showcase."""
+    """Compose a 2x2 dashboard frame for demonstration and analysis."""
     overlay = result.overlay_frame
     h, w = overlay.shape[:2]
 
